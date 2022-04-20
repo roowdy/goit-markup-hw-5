@@ -261,6 +261,33 @@ img {
   justify-content: space-between;
 }
 
+.occupation-list-item {
+  position: relative;
+}
+
+.occupation-description {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+.occupation-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
 /* ---------------TEAM--------------- */
 /* .team-social-networks {
   background-size: cover;
