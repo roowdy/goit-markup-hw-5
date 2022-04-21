@@ -672,6 +672,9 @@ img {
 }
 
 .modal-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -684,7 +687,6 @@ img {
 
 .modal-close-icon {
   fill: #000;
-  color: #000;
 }
 
 .backdrop.is-hidden {
