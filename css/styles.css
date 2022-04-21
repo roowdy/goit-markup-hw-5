@@ -683,7 +683,8 @@ img {
 }
 
 .modal-close-icon {
-  fill: #000000;
+  fill: #000;
+  color: #000;
 }
 
 .backdrop.is-hidden {
